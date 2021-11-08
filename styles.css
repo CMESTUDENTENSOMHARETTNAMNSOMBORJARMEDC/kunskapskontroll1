@@ -1,4 +1,5 @@
-
+@import url(//db.onlinewebfonts.com/c/1094504ae47cb9cfa800bc04261c211a?family=Geomanist);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 /********LÄNKAR*************/
 a {
 	text-decoration: none;
@@ -8,7 +9,7 @@ a.nav-link {
 	text-decoration: none;
 	color: antiquewhite;
 	font-size: 17px;
-	font-family: Proxima Nova;
+	font-family: Geomanist;
 	text-transform: uppercase;
 }
 a.non-text-link {
@@ -56,7 +57,7 @@ nav ul {
 	font-size: 8vw;
 	text-align: center;
 	font-weight: bold;
-	font-family: Proxima Nova;
+	font-family: Geomanist;
 }
 .my-name > div {
 	height: 3.6vw;
