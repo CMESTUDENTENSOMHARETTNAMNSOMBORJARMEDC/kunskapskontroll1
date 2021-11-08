@@ -220,8 +220,7 @@ label {
 	padding-bottom: 10px;
 }
 .text-area {
-	width: 100%;
-	max-width:100%;
+	width: 80vw; /*får det inte att fungera med %*/
 	overflow: hidden;
 	resize: vertical;
 	outline: none;
@@ -257,6 +256,10 @@ span[role=textbox] {
 		grid-column:2;
 		align-self: end;
 	}
+    .text-area {
+    	width: 50vw;
+    	max-width:516px;
+    }
 }
 @media (min-width: 700px) {
 	body {
